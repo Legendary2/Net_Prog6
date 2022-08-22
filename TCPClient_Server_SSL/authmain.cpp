@@ -2,6 +2,8 @@
 #include <algorithm>
 #include <string>
 
+#include "auth.h"
+
 namespace auth {
     namespace provider {
         unsigned long long now() {
