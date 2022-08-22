@@ -25,7 +25,6 @@ ASecureSocket::SecureSocketGlobalInitializer::~SecureSocketGlobalInitializer()
 	DestroySSL();
 }
 
-*/
 ASecureSocket::ASecureSocket(const LogFnCallback & oLogger,
 	const OpenSSLProtocol eSSLVersion,
 	const SettingsFlag eSettings /*= ALL_FLAGS*/) :
